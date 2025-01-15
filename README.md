@@ -117,6 +117,11 @@ python mqtt_switch_off.py
 python mqtt_listen_and_ctrl.py
 ```
 
+### MQTT listen and log to a .csv files
+```bash
+python mqtt_listen_and_log.py
+```
+
 ## Notes
 - Make sure your USB Zigbee adapter is properly connected before starting the service
 - Check the logs if you encounter any issues
