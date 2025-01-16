@@ -74,7 +74,13 @@ gedit /opt/zigbee2mqtt/data/configuration.yaml
 Adjust the settings according to your setup.
 An example configuration.yaml file is included in the project repo.
 
-### 6. Set Up Zigbee2MQTT as System Service
+
+### 6. Check Zigbee2MQTT in command line
+```bash
+npm start
+```
+
+### 7. Set Up Zigbee2MQTT as System Service
 Create and start the Zigbee2MQTT service:
 ```bash
 sudo gedit /etc/systemd/system/zigbee2mqtt.service
@@ -85,7 +91,7 @@ sudo systemctl enable zigbee2mqtt
 Adjust the settings according to your setup.
 An example zigbee2mqtt.service file is included in the project repo.
 
-### 7. Verify Installation
+### 8. Verify Installation
 Check the service status and logs:
 ```bash
 sudo systemctl status zigbee2mqtt
