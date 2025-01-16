@@ -55,7 +55,7 @@ git clone --depth 1 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 Build the application:
 ```bash
 cd /opt/zigbee2mqtt
-npm ci
+npm install
 npm run build
 ```
 
